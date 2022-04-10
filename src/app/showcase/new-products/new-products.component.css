@@ -1,0 +1,35 @@
+.active {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    color: red !important;
+    font-weight: 600;
+}
+
+h6 {
+    font-weight: bold;
+}
+
+.nav-link {
+    color: rgb(185, 185, 185);
+    font-size: 13px;
+    letter-spacing: 0.2px;
+}
+
+.container-fluid {
+    margin-top: 40px;
+}
+
+.product {
+    border: solid 1px rgb(212, 210, 210);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 1px;
+    text-align: center;
+    
+}
+
+.product > img {
+    width: 250px;
+    height: 250px;
+    
+}

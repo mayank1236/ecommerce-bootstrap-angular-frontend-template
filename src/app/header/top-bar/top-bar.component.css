@@ -1,0 +1,17 @@
+.container, .container-fluid {
+    background-color: #0f1034;
+    height: 30px;
+}
+.top-links {
+    color: white;
+    font-size: 10px;
+    display: inline-block;
+    margin-left: 7px;
+    letter-spacing: 1px;
+}
+
+i {
+    color: red;
+    font-size: 12px;
+    padding: 4px;
+}

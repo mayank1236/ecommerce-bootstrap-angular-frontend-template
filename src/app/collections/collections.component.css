@@ -1,0 +1,53 @@
+.row {
+    margin-top: 5%;
+}
+
+.col {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(195, 190, 190);
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    padding: 0px;
+}
+
+.col > img {
+    position: absolute;
+    top: -20%;
+    left: -7%;
+    height: 500px;
+    width: 500px;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top left, transparent 250px, rgb(189, 1, 1) 20px);;
+    z-index: 1;
+    opacity: 0.8;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.overlay > div {
+    font-size: 48px;
+}
+
+.overlay> div, span {
+    margin: 30px 0 0 15px;
+}
+
+.overlay > span {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.overlay > i {
+    font-size: 12px;
+    margin-left: 10px;
+}

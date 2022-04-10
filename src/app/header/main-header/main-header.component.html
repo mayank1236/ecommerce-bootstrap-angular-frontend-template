@@ -1,0 +1,34 @@
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <!-- LOGO -->
+            <div class="col-3"><img src="./assets/img/logo.png" /></div>
+            <!-- SEARCH BAR -->
+            <div class="col-6">
+                <form #searchForm="ngForm" ngSubmit="onSubmit()" >
+                    <select>
+                        <option selected disabled>All Categories</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="4">Four</option>
+                        <option value="5">Five</option>
+                    </select>
+                    <input type="text" placeholder="Search here"/>
+                    <button class="btn-danger" type="submit">Search</button>
+                </form>
+            </div>
+            <!-- UTILITIES -->
+            <div class="col-3">
+                <div class="util-btn">
+                    <i class="fa-solid fa-heart"></i>
+                    <a href="">Your Wishlist</a>
+                </div>
+                <div class="util-btn">
+                    <i class="fa-solid fa-heart"></i>
+                    <a href="">Your Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
