@@ -12,4 +12,6 @@ export class SocialComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onSubmit() {}
+
 }

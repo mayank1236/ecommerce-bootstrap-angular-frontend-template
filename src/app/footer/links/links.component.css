@@ -1,0 +1,52 @@
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 450;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    border-top: solid 5px red;
+    background-color: rgb(19, 19, 19);
+}
+
+.container {
+    color: white;
+    padding: 60px;
+}
+
+h4 {
+    margin-bottom: 20px;
+    font-weight: 650;
+    font-size: 20px;
+}
+
+.top-links > * {
+    color: red;
+    margin-right: 10px;
+   
+}
+
+.top-links {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 450;
+    margin-bottom: 10px;
+}
+
+.about {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 450;
+}
