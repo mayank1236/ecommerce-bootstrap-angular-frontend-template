@@ -19,8 +19,14 @@
         </div>
     </div>
     <div class="row" style="margin-top: 10px">
-        <div *ngFor="let product of products" class="col product">
-            <p 
+        <div 
+            *ngFor="let product of products; let i = index" 
+            (mouseenter)="onHover(i)" 
+            (mouseleave)="onHover(leaving)" 
+            class="col product-container"
+        >
+            <div class="product" [ngStyle]="{'border':(i === hovering)? 'solid 3px red': 'solid 1px rgb(212, 210, 210)'}">
+                <p 
                 class="border border-danger"
                 style="margin-top: 5px;
                        display: inline-block;
@@ -46,6 +52,11 @@
                 <div class="col"><i class="fa-solid fa-phone"></i></div>
                 <div class="col"><i class="fa-solid fa-phone"></i></div>
             </div>
+            </div>
+            <div class="cart-button" [ngStyle]="{'display': (i === hovering)? 'block' : 'none'}">
+                <button class="btn btn-danger rounded-pill">ADD TO CART</button>
+            </div>
         </div>
+        
     </div>
 </div>

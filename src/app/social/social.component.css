@@ -1,6 +1,7 @@
 .container-fluid {
     margin-top: 80px;
     border-top: solid 2px #eeeded;
+    margin-bottom: 40px;
 }
 
 .container {
