@@ -1,0 +1,15 @@
+<div class="row top-selling-list">
+    <div class="col product-list" *ngFor="number of ProductList; let i = index">
+        <h4 class="product-head">TOP SELLING</h4>
+        <div class="row product-list" *ngFor="Product of ProductList[i]; let j = index">
+            
+            <img style="width: 70px; height: 50px;" [src]="ProductList[i][j]" />
+            
+            <div class="col product-info">
+                <span class="text-secondary" style="font-size: 10px; font-weight: 700px;">CATEGORY</span>
+                <p style="margin: 0; font-weight: bold; font-size: 15px">PRODUCT NAME GOES HERE</p>
+                <p class="text-danger product-price">$980.00 <s style="font-size: 8px;color: rgb(187, 183, 183);">$990.00</s></p>
+            </div>
+        </div>
+    </div>
+</div>

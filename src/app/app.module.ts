@@ -17,6 +17,7 @@ import { LinksComponent } from './footer/links/links.component';
 import { CopyrightComponent } from './footer/copyright/copyright.component';
 import { FormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ProductListComponent } from './showcase/top-selling/product-list/product-list.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     DealComponent,
     TopSellingComponent,
     LinksComponent,
-    CopyrightComponent
+    CopyrightComponent,
+    ProductListComponent
   ],
   imports: [
     BrowserModule,

@@ -33,3 +33,7 @@ h6 {
     height: 250px;
     
 }
+
+.product-list img {
+    display: inline-block;
+}

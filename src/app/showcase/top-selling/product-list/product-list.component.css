@@ -1,0 +1,17 @@
+.top-selling-list {
+    margin-top: 50px;
+}
+
+.product-list > * {
+ margin-bottom: 10px;
+ margin-top: 10px;
+}
+
+.product-head {
+    font-size: 18px;
+}
+
+.product-price {
+    font-weight: bold;
+    font-size: 13px;
+}
