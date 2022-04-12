@@ -57,8 +57,9 @@ form input {
     letter-spacing: 1px;
 }
 
-.util-btn> i {
-    font-size: 20px;
+.util-btn>  fa-icon{
+    margin-top: 8px;
+    font-size: 15px;
     display: block;
     color: red;
 }
