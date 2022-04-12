@@ -47,7 +47,7 @@
     font-weight: normal;
 }
 
-.overlay > i {
-    font-size: 12px;
+.overlay > fa-icon {
+    font-size: 15px;
     margin-left: 10px;
 }
