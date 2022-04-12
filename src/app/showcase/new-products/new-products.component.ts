@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faEye, faHeart, faRightLeft } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-new-products',
@@ -6,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./new-products.component.css']
 })
 export class NewProductsComponent implements OnInit {
+  faHeart = faHeart;
+  faEye = faEye;
+  faExchange = faRightLeft;
+
   products: string[] = [
     './assets/img/product01.png',
     './assets/img/product02.png',
